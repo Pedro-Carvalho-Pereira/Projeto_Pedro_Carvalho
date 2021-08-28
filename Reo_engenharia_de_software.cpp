@@ -30,6 +30,10 @@ class A{
     void MA2(){
         cout << "MA2" << endl;
     }
+
+    void MA3(){
+        cout << "Alterando a classe A a partir do clone"
+    }
 };
 
 
@@ -63,6 +67,21 @@ class B{
         cout << "MB2" << endl;
     }
 };   
+
+classe C{
+    private:
+    string c1;
+    int c2;
+
+    public:
+    void MC1(){
+        cout << "MC1" << endl;
+    }
+
+    void MC2(){
+        cout << "MC2" << endl;
+    }
+};
 
 int main(){
 
