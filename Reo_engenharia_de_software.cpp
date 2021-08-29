@@ -62,6 +62,40 @@ class B{
     void MB2(){
         cout << "MB2" << endl;
     }
+    
+    class D{
+    private:
+    int D1;
+    float D2;
+    public:
+
+    int getD1(){
+        return D1;
+    }
+
+    void setD1(int _D1){
+        D1=_D1;
+    }
+
+    float getD2(){
+        return D2;
+    }
+
+    void setD2(float _D2){
+       D2=_D2; 
+    }
+
+    void MD1(){
+        cout << "MD1" << endl;
+    }
+
+    void MD2(){
+        cout << "MD2" << endl;
+    }
+        
+    void MD4(){
+        cout << "MD4" << endl;
+    }    
 };   
 
 int main(){
